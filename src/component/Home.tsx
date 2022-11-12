@@ -38,10 +38,12 @@ export const Home = () => {
                 </AppBar>
 
             </ThemeProvider>
-            <ButtonToCalc url='/hotel.jpeg' title='Squares and roots'
-                width='80%' path='/calcSuite/squares' />
-            <ButtonToCalc url='/hotel.jpeg' title='Addition and subtract'
-                width='80%' path='/calcSuite/addition' />
+            <ButtonToCalc url='/battle/hotel.jpeg' title='Squares and roots'
+                width='80%' path='calcSuite/squares' />
+            <ButtonToCalc url='/battle/hotel.jpeg' title='Addition and subtract'
+                width='80%' path='calcSuite/addition' />
+                 <ButtonToCalc url='/battle/hotel.jpeg' title='squares and roots complex'
+                width='80%' path='calcSuite/squaresComplex' />
             <div style={{
                 marginTop: "340px",
                 padding: "10px"

@@ -46,7 +46,7 @@ const CalcSuite = (props: PropsCalcSuite) => {
 
     const getCalcRendered = (string: string) => {
         var calcPrepare = string.replaceAll("w(", "\\sqrt{\\smash[b]{");
-        calcPrepare = calcPrepare.replaceAll(")", "}}")
+        calcPrepare = calcPrepare.replaceAll(")\\", "}}")
         return calcPrepare
     }
 
@@ -171,7 +171,7 @@ const CalcSuite = (props: PropsCalcSuite) => {
                                 }}>
                                     Weiter ..
                                 </h3>
-                                <Link to="/" style={{
+                                <Link to="/battle" style={{
                                     textDecoration: "none",
                                     color: "white",
                                     fontSize: "20px"

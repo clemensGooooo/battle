@@ -57,17 +57,17 @@ export const squares = [
     },
     {
         instruction: "Schreibe als Lösung x<sub>1</sub>, falls es x<sub>2</sub> gibt,schreibe es so 1,2",
-        calculation: "2w(2^2*4^2)",
+        calculation: "2w(2^2*4^2)\\",
         result: ["16,-16"]
     },
     {
         instruction: "Schreibe als Lösung x<sub>1</sub>, falls es x<sub>2</sub> gibt,schreibe es so 1,2",
-        calculation: "2w(441)",
+        calculation: "2w(441)\\",
         result: ["42,-42"]
     },
     {
         instruction: "Schreibe als Lösung x<sub>1</sub>, falls es x<sub>2</sub> gibt,schreibe es so 1,2",
-        calculation: "w( \\frac {1000} {10})",
+        calculation: "w( \\frac {1000} {10})\\",
         result: ["10,-10"]
     },
     {
@@ -152,5 +152,67 @@ export const addition = [
         instruction: "Schreibe als ganze Zahl",
         calculation: "13+2",
         result: ["15"]
+    }
+]
+export const squaresComplex = [
+    {
+        instruction: "Schreibe als Division",
+       calculation: "30^{-2}*(\\frac{2}{3})^{-2}",
+        result: ["1/400"]
+    },
+    {
+        instruction: "Schreibe als ganze Zahl",
+        calculation: "(\\frac {7} {6})^{3}*\\frac {1} {3^{-3}}",
+        result: ["343/2"]
+    },
+    {
+        instruction: "Schreibe als ganze Bruch",
+        calculation: "2,25^{-2}*(1,5)^2",
+        result: ["4/9"]
+    },
+    {
+        instruction: "Schreibe als ganze Bruch",
+        calculation: "\\frac {25} {2^2} * (\\frac {3} {4})^{-2}",
+        result: ["100/9"]
+    },
+    {
+        instruction: "Schreibe als ganze Bruch",
+        calculation: "(\\frac {2} {7})^{-2} * \\frac {1} {14}",
+        result: ["7/8"]
+    },
+    {
+        instruction: "Schreibe als Division",
+        calculation: "(\\frac {2} {7})^{-2} * \\frac {1} {14}",
+        result: ["3125/32","(5/2)^2"]
+    },
+    {
+        instruction: "Schreibe als Division",
+        calculation: "(\\frac {1} {2})^{-5} * 3^5",
+        result: ["6^5","7776"]
+    },
+    {
+        instruction: "Schreibe als ganze Zahl",
+        calculation: "8^{-4}*4^4",
+        result: ["1"]
+    },
+    {
+        instruction: "Schreibe als Potenz",
+        calculation: "3^2*3^4*5^6",
+        result: ["15^5","15^{5}"]
+    },
+    {
+        instruction: "Schreibe als Potenz oder Zahl",
+        calculation: "\\frac {25^7*4^7} {100^3}",
+        result: ["100^4","100000000"]
+    },
+    {
+        instruction: "Schreibe als Potenz oder Zahl",
+        calculation: "\\frac {25^7*4^7} {100^3}",
+        result: ["2^{-3}","1/8"]
+    },
+    {
+        instruction: "Schreibe als Potenz oder Zahl",
+        calculation: "\\frac {25^7*4^7} {100^3}",
+        result: ["2^{-3}","1/8"]
     }
 ]
