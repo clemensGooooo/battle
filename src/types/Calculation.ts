@@ -207,12 +207,32 @@ export const squaresComplex = [
     },
     {
         instruction: "Schreibe als Potenz oder Zahl",
-        calculation: "\\frac {25^7*4^7} {100^3}",
-        result: ["2^{-3}","1/8"]
+        calculation: "\\frac {x^{2n}-121} {x^{2n}+22x^n+121}",
+        result: ["x^n-11"]
     },
     {
-        instruction: "Schreibe als Potenz oder Zahl",
-        calculation: "\\frac {25^7*4^7} {100^3}",
-        result: ["2^{-3}","1/8"]
+        instruction: "Schreibe als Division",
+        calculation: "\\frac {\\frac {1} {35}(7xy^2)^5} {(49x^2y^5)^2 }",
+        result: ["(1/5)x"]
+    },
+    {
+        instruction: "Schreibe als Division",
+        calculation: "\\frac {3x} {x^n}- \\frac {5x^{-1}} {x^{n-2}} + \\frac {x^{n+1}} {x^{2n}}",
+        result: ["-x^{1-n}"]
+    },
+    {
+        instruction: "Schreibe als Division",
+        calculation: "\\sqrt[3]{\\sqrt[]{a^{12}}}",
+        result: ["a^2"]
+    },
+    {
+        instruction: "Schreibe als Division",
+        calculation: "\\sqrt[]{\\sqrt[]{\\sqrt[]{a^{16}}}}",
+        result: ["a^2"]
+    },
+    {
+        instruction: "Schreibe als ganze Zahl",
+        calculation: "\\frac {1024^3} {2048^3}",
+        result: ["8"]
     }
 ]
