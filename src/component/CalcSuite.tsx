@@ -85,7 +85,7 @@ const CalcSuite = (props: PropsCalcSuite) => {
                                         Do all exercies again !
                                     </Button>
                                     <br />
-                                    <Link to="/">
+                                    <Link to="/battle">
                                         <Button>
                                             Home
                                         </Button>
@@ -144,7 +144,7 @@ const CalcSuite = (props: PropsCalcSuite) => {
                                             }}>
                                             ?
                                         </Button>
-                                        <Link to="/">
+                                        <Link to="/battle">
                                             <Button variant="contained"
                                                 style={{ color: "white", fontSize: "30px", margin: "10px", height: "65px" }}
                                             >
